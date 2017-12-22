@@ -1,0 +1,1 @@
+﻿Put remote textures in this folder.

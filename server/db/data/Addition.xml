@@ -1,0 +1,1948 @@
+﻿<ExtData>
+  
+      <Object ext="true" id="hallsswordproj">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>hallsswordproj</Id>
+    </RemoteTexture>
+  </Object>
+  
+    <Object ext="true" id="hallsbowproj">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>hallsbowproj</Id>
+    </RemoteTexture>
+  </Object>  
+  
+  <Object ext="true" id="Void Bow">
+<Class>Equipment</Class>
+<Item/>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>hallsbow</Id>
+    </RemoteTexture>
+<SlotType>3</SlotType>
+<Tier>12</Tier>
+<Description>nah from prod xd lmao</Description>
+<RateOfFire>1</RateOfFire>
+<Sound>weapon/poor_quality_bow</Sound>
+<Projectile>
+	<ObjectId>hallsbowproj</ObjectId>
+	<Speed>150</Speed>
+	<MinDamage>135</MinDamage>
+	<MaxDamage>205</MaxDamage>
+	<LifetimeMS>415</LifetimeMS>
+	<Amplitude>0.35</Amplitude>
+	<Frequency>0.2</Frequency>
+	<Size>100</Size>
+	<MultiHit/>
+</Projectile>
+<NumProjectiles>1</NumProjectiles>
+<ArcGap>11</ArcGap>
+<BagType>6</BagType>
+<FameBonus>6</FameBonus>
+<feedPower>1200</feedPower>
+<DisplayId>Void Bow</DisplayId>
+</Object>
+
+
+<Object ext="true" id="Sword of the Colossus">
+<Class>Equipment</Class>
+<Item/>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>hallssword</Id>
+    </RemoteTexture>
+<SlotType>1</SlotType>
+<Tier>12</Tier>
+<Description>Sword of the Colossus from prod lol lmao</Description>
+<RateOfFire>1</RateOfFire>
+<Sound>weapon/blunt_sword</Sound>
+<Projectile>
+	<ObjectId>hallsswordproj</ObjectId>
+	<Speed>100</Speed>
+	<MinDamage>280</MinDamage>
+	<MaxDamage>295</MaxDamage>
+	<LifetimeMS>450</LifetimeMS>
+	<Amplitude>1</Amplitude>
+	<Frequency>0.5</Frequency>
+	<Size>100</Size>
+</Projectile>
+<NumProjectiles>1</NumProjectiles>
+<ArcGap>11</ArcGap>
+<BagType>6</BagType>
+<FameBonus>6</FameBonus>
+<feedPower>1200</feedPower>
+<DisplayId>Sword of the Colossus</DisplayId>
+</Object>
+  
+<Object ext="true" id="Electro Katana">
+<Class>Equipment</Class>
+<Item/>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>elekatana</Id>
+    </RemoteTexture>
+<SlotType>24</SlotType>
+<Tier>12</Tier>
+<Description>Electric Katana</Description>
+<RateOfFire>2</RateOfFire>
+<Sound>weapon/blunt_sword</Sound>
+<Projectile>
+	<ObjectId>Lightning Bolt</ObjectId>
+	<Speed>150</Speed>
+	<MinDamage>150</MinDamage>
+	<MaxDamage>255</MaxDamage>
+	<LifetimeMS>365</LifetimeMS>
+	<Amplitude>0.1</Amplitude>
+	<Frequency>2</Frequency>
+	<Size>85</Size>
+	<MultiHit/>
+	<ArmorPiercing/>
+</Projectile>
+<NumProjectiles>2</NumProjectiles>
+<ArcGap>7</ArcGap>
+<BagType>6</BagType>
+<FameBonus>8</FameBonus>
+<feedPower>100000</feedPower>
+<DisplayId>Electro Katana</DisplayId>
+</Object>
+
+  
+   <Object ext="true" id="Neon Spell">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>nspell</Id>
+    </RemoteTexture>
+    <SlotType>11</SlotType>
+    <Description>Neon?! Texture maker: Ziomeeeek</Description>
+    <Sound>spell/magic_nova</Sound>
+    <Projectile>
+      <ObjectId>Green Star</ObjectId>
+      <Speed>70</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Amplitude>0.3</Amplitude>
+      <Frequency>1</Frequency>
+      <MultiHit />
+    </Projectile>
+    <ActivateOnEquip stat="3" amount="15">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="25">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>100</MpCost>
+    <Activate>BulletNova</Activate>
+    <Activate radius="4" totalDamage="100">VampireBlast</Activate>
+    <feedPower>0</feedPower>
+    <DisplayId>Neon Spell</DisplayId>
+  </Object>
+
+  <Object ext="true" id="Neon Staff">
+    <Class>Equipment</Class>
+    <Item/>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>nstaff</Id>
+    </RemoteTexture>
+    <SlotType>17</SlotType>
+    <Tier>12</Tier>
+    <Description>i like neons... Texture maker: Ziomeeeek</Description>
+    <RateOfFire>3</RateOfFire>
+    <Sound>weapon/fire_wand</Sound>
+    <Projectile>
+      <ObjectId>Green Star</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>120</MinDamage>
+      <MaxDamage>245</MaxDamage>
+      <LifetimeMS>475</LifetimeMS>
+      <Frequency>10</Frequency>
+      <Size>120</Size>
+      <MultiHit/>
+      <ArmorPiercing/>
+    </Projectile>
+    <NumProjectiles>5</NumProjectiles>
+    <ArcGap>3</ArcGap>
+    <ActivateOnEquip stat="0" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="3" amount="5">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <FameBonus>8</FameBonus>
+    <feedPower>100000</feedPower>
+    <DisplayId>Neon Staff</DisplayId>
+  </Object>
+
+
+  <Object ext="true" id="name">
+<Class>Equipment</Class>
+<Item/>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>deadshield</Id>
+    </RemoteTexture>
+<SlotType>8</SlotType>
+<Tier>12</Tier>
+<Description>here text</Description>
+<RateOfFire>2</RateOfFire>
+<Sound>weapon/fire_wand</Sound>
+<Projectile>
+	<ObjectId>Ichimonji Slash</ObjectId>
+	<Speed>150</Speed>
+	<MinDamage>200</MinDamage>
+	<MaxDamage>350</MaxDamage>
+	<LifetimeMS>600</LifetimeMS>
+	<Amplitude>0.2</Amplitude>
+	<Frequency>1</Frequency>
+	<Size>100</Size>
+	<MultiHit/>
+	<PassesCover/>
+	<ArmorPiercing/>
+</Projectile>
+<NumProjectiles>4</NumProjectiles>
+<ArcGap>5</ArcGap>
+<BagType>6</BagType>
+<FameBonus>8</FameBonus>
+<feedPower>1000</feedPower>
+<DisplayId>name</DisplayId>
+</Object>
+
+  
+  <Object ext="true" id="Kiritus shield">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>deadshield</Id>
+    </RemoteTexture>
+    <SlotType>5</SlotType>
+    <Description>When the unholy army rose, shields gave them dark, almighty strength and power</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>deadswordproj</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>280</MinDamage>
+      <MaxDamage>360</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>120</Size>
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+      <ConditionEffect duration="4">Slowed</ConditionEffect>
+      <MultiHit />
+      <ArmorPiercing />
+      <ParticleTrail />
+    </Projectile>
+    <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="50">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>100</MpCost>
+    <Activate>Shoot</Activate>
+    <NumProjectiles>15</NumProjectiles>
+    <ArcGap>23</ArcGap>
+    <feedPower>0</feedPower>
+    <DisplayId>Dead Shield</DisplayId>
+  </Object>
+  
+    <Object ext="true" id="deadswordproj">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>deadswordproj</Id>
+    </RemoteTexture>
+  </Object>
+  
+  <Object ext="true" id="Kiritus Sword">
+<Class>Equipment</Class>
+<Item/>
+<RemoteTexture>
+      <Instance>production</Instance>
+      <Id>deadsword</Id>
+    </RemoteTexture>
+<SlotType>1</SlotType>
+<Tier>12</Tier>
+<Description>A steel short sword.</Description>
+<RateOfFire>0.25</RateOfFire>
+<Sound>weapon/blunt_sword</Sound>
+<Projectile>
+	<ObjectId>deadswordproj</ObjectId>
+	<Speed>100</Speed>
+	<MinDamage>550</MinDamage>
+	<MaxDamage>850</MaxDamage>
+	<LifetimeMS>450</LifetimeMS>
+	<Size>200</Size>
+	<MultiHit/>
+	<PassesCover/>
+</Projectile>
+<NumProjectiles>1</NumProjectiles>
+<ArcGap>11</ArcGap>
+<ActivateOnEquip stat="0" amount="50">IncrementStat</ActivateOnEquip>
+<BagType>6</BagType>
+<FameBonus>8</FameBonus>
+<feedPower>15000</feedPower>
+<DisplayId>Dead Sword</DisplayId>
+</Object>
+
+  
+  <Object ext="true" id="rainbowstaffprojectile">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>rainbowstaffprojectile</Id>
+    </RemoteTexture>
+  </Object>
+  
+  <Object ext="true" id="Rainbow staff">
+<Class>Equipment</Class>
+<Item/>
+   <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>rainbowstaff</Id>
+    </RemoteTexture>
+<SlotType>17</SlotType>
+<Tier>12</Tier>
+<Description>Rainbow staff of Gay set. Texture maker : Ziomeeeek</Description>
+<RateOfFire>2</RateOfFire>
+<Sound>weapon/fire_wand</Sound>
+<Projectile>
+	<ObjectId>rainbowstaffprojectile</ObjectId>
+	<Speed>220</Speed>
+	<MinDamage>175</MinDamage>
+	<MaxDamage>250</MaxDamage>
+	<LifetimeMS>475</LifetimeMS>
+	<Amplitude>0.5</Amplitude>
+	<Frequency>1</Frequency>
+	<Size>100</Size>
+	<MultiHit/>
+	<PassesCover/>
+</Projectile>
+<NumProjectiles>2</NumProjectiles>
+<ArcGap>0</ArcGap>
+<BagType>6</BagType>
+<FameBonus>8</FameBonus>
+<feedPower>12000</feedPower>
+<DisplayId>Rainbow staff</DisplayId>
+</Object>
+
+  
+    <Object ext="true" id="rspellproj">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>rspellproj</Id>
+    </RemoteTexture>
+  </Object>
+  
+  <Object ext="true" id="Rainbow Spell">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>rspell</Id>
+    </RemoteTexture>
+    <SlotType>11</SlotType>
+    <Description>Rainbow spell! Texture: Kakaseka</Description>
+    <Sound>spell/magic_nova</Sound>
+    <Projectile>
+      <ObjectId>rspellproj</ObjectId>
+      <Speed>70</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Amplitude>0.3</Amplitude>
+      <Frequency>1</Frequency>
+      <MultiHit />
+    </Projectile>
+    <ActivateOnEquip stat="3" amount="20">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="20">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>100</MpCost>
+    <Activate>BulletNova</Activate>
+    <Activate radius="4" totalDamage="100">VampireBlast</Activate>
+    <feedPower>0</feedPower>
+    <DisplayId>Rainbow Spell</DisplayId>
+  </Object>
+  
+  <Object ext="true" id="SoLLproj">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>SoLLdaggerProj</Id>
+    </RemoteTexture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  
+   <Object ext="true" id="Fire Water Armor">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>thessal_armor</Id>
+    </RemoteTexture>
+    <SlotType>14</SlotType>
+     <Tier>12</Tier>
+    <Description>No more thessal (plsno) Texture:Ziomeeeek</Description>
+    <ActivateOnEquip stat="20" amount="-10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="28" amount="20">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="21" amount="35">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <FameBonus>8</FameBonus>
+    <feedPower>1000000</feedPower>
+    <DisplayId>Fire Water Armor</DisplayId>
+  </Object>
+  
+  <Object ext="true" id="Rainbow">
+<Class>Equipment</Class>
+<Item/>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>rainbow</Id>
+    </RemoteTexture>
+<SlotType>3</SlotType>
+<Tier>12</Tier>
+<Description>RAINBOW! huh... Thanks to Ziomeeeek for Sprite.</Description>
+<RateOfFire>1.5</RateOfFire>
+<Sound>weapon/poor_quality_bow</Sound>
+<Projectile>
+	<ObjectId>Fire Boomerang</ObjectId>
+	<Speed>250</Speed>
+	<MinDamage>189</MinDamage>
+	<MaxDamage>350</MaxDamage>
+	<LifetimeMS>550</LifetimeMS>
+	<Amplitude>0.7</Amplitude>
+	<Frequency>5</Frequency>
+	<Size>100</Size>
+	<MultiHit/>
+	<ArmorPiercing/>
+</Projectile>
+<NumProjectiles>10</NumProjectiles>
+<ArcGap>0</ArcGap>
+<BagType>6</BagType>
+<FameBonus>8</FameBonus>
+<feedPower>5</feedPower>
+<DisplayId>Rainbow</DisplayId>
+</Object>
+
+   <Object ext="true" id="Karambit">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>karambit</Id>
+    </RemoteTexture>
+    <SlotType>2</SlotType>
+    <Description>This knife has a built in sharp edge , so it doesn't need to shoot one out. Texture make: Ziomeeeek</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/fire_dagger</Sound>
+    <Projectile>
+      <ObjectId>SoLLProj</ObjectId>
+      <Speed>80</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+    <ActivateOnEquip stat="27" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="26" amount="-10">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <FameBonus>5</FameBonus>
+    <feedPower>500</feedPower>
+    <DisplayId>Karambit</DisplayId>
+  </Object>
+  
+      <Object ext="true" id="Super Magical Ring">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>mg_ring</Id>
+    </RemoteTexture>
+      <Tier>6</Tier>
+    <SlotType>9</SlotType>
+    <Description>DO YOU SEE RING THAT RING!? IT'S SOO OP! for texture thanks ziomeeeek</Description>
+    <ActivateOnEquip stat="20" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="28" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="27" amount="10">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>135</MpCost>
+    <Activate radius="5" totalDamage="100" condEffect="Curse" condDuration="4">Trap</Activate>
+    <Activate effect="Berserk" duration="2">ConditionEffectSelf</Activate>
+    <Activate effect="Bleeding" duration="3">ConditionEffectSelf</Activate>
+    <feedPower>0</feedPower>
+    <DisplayId>Super Magical Ring</DisplayId>
+  </Object>
+  
+    
+  <Object ext="true" id="Ice Sword">
+<Class>Equipment</Class>
+<Item/>
+    <RemoteTexture>
+      <Instance>production</Instance>
+      <Id>Ice_Sword</Id>
+    </RemoteTexture>
+<SlotType>1</SlotType>
+<Tier>12</Tier>
+<Description>Happy Christmas everone! Sprite:Ziomeeeek</Description>
+<RateOfFire>2.8</RateOfFire>
+<Sound>weapon/mithril_sword</Sound>
+<Projectile>
+	<ObjectId>White Flame</ObjectId>
+	<Speed>100</Speed>
+	<MinDamage>235</MinDamage>
+	<MaxDamage>300</MaxDamage>
+	<LifetimeMS>480</LifetimeMS>
+	<Frequency>1</Frequency>
+	<Size>60</Size>
+	<MultiHit/>
+	<PassesCover/>
+	<ArmorPiercing/>
+</Projectile>
+<NumProjectiles>2</NumProjectiles>
+<ArcGap>20</ArcGap>
+<BagType>6</BagType>
+<FameBonus>8</FameBonus>
+<feedPower>1500</feedPower>
+<Soulbound/>
+<DisplayId>Ice Sword</DisplayId>
+</Object>
+
+ <Object type="0x1563" id="Rosen Blade Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins16</File>
+      <Index>08</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Ninja with the Rosen Blade Skin.</Description>
+    <Activate skinType="1029">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>2000</feedPower>
+  </Object>
+  <Object type="0x1564" id="Djinja Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins16</File>
+      <Index>09</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Ninja with the Djinja Skin.</Description>
+    <Activate skinType="1030">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>2000</feedPower>
+  </Object>
+  <Object type="0x7fca" id="Dragon Tamer 16 Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins16</File>
+      <Index>0x0a</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Warrior with the Dragon Tamer Skin.</Description>
+    <Activate skinType="32712">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1580" id="Baby Djinja Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>102</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Ninja with the Baby Djinja Skin.</Description>
+    <Activate skinType="29840">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2580" id="Mini Rosen Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>103</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Ninja with the Mini Rosen Skin.</Description>
+    <Activate skinType="29841">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2581" id="Mini Geb Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>98</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Priest with the Mini Geb Skin.</Description>
+    <Activate skinType="29842">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2582" id="Mini Skuld Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>99</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Rogue with the Mini Skuld Skin.</Description>
+    <Activate skinType="29843">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2583" id="Mini Oryx Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>95</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Knight with the Mini Oryx Skin.</Description>
+    <Activate skinType="29847">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2584" id="Mini Swoll Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>97</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Paladin with the Mini Swoll Skin.</Description>
+    <Activate skinType="29845">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2585" id="Mini Twilight Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>100</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Wizard with the Mini Twilight Skin.</Description>
+    <Activate skinType="29844">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2586" id="Mini Phylactery Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>96</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Mystic with the Mini Phylactery Skin.</Description>
+    <Activate skinType="29846">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2587" id="Mini Thessal Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>94</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Huntress with the Mini Thessal Skin.</Description>
+    <Activate skinType="29848">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2588" id="Slurp Knight Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>107</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Knight with the Slurp Knight Skin.</Description>
+    <Activate skinType="2521">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x7fff" id="Vampire Lord Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>108</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Necromancer with the Vampire Lord Skin.</Description>
+    <Activate skinType="32766">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x7f8f" id="Headless Rider Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>109</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Paladin with the Headless Rider Skin.</Description>
+    <Activate skinType="32654">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>750</feedPower>
+  </Object>
+  <Object type="0x7f93" id="Pilgrim Father Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>110</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Paladin with the Pilgrim Father Skin.</Description>
+    <Activate skinType="32656">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x7f94" id="Pilgrim Mother Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>111</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Mystic with the Pilgrim Mother Skin.</Description>
+    <Activate skinType="32657">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x7f95" id="Wizard Supreme Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>112</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Wizard with the Wizard Supreme Skin.</Description>
+    <Activate skinType="32658">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x7fa0" id="Rudolph the Berzerk Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>113</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Warrior with Rudolph the Berzerk Skin.</Description>
+    <Activate skinType="32675">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>750</feedPower>
+  </Object>
+  <Object type="0x7fa1" id="Miss Santa Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>114</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Paladin with Miss Santa Skin.</Description>
+    <Activate skinType="32676">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x7fa2" id="Snow Queen Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>115</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Wizard with Snow Queen Skin.</Description>
+    <Activate skinType="32677">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x7fbe" id="Dragon Tamer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>116</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Warrior with Dragon Tamer Skin.</Description>
+    <Activate skinType="32701">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x13a" id="Inuit Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>117</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Archer with the Inuit Skin.</Description>
+    <Activate skinType="312">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x13b" id="Snowcloaked Rogue Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>118</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Customize your Rogue  with the Snowcloaked Rogue Skin.</Description>
+    <Activate skinType="313">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x16eb" id="Chinese Dress Trickster Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>119</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Fashionable AND dangerous.\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5859">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x16ec" id="Penguin Knight Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>120</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Looks a lot less cute once its sword is in your eye.\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5860">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x16ed" id="Frimar Knight Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>121</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Smaller than the real Frimar, but no less dangerous.\n\nSprite Credits: Poshun</Description>
+    <Activate skinType="5861">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x16ef" id="Frozen King Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>122</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Once sat on a Frozen Throne, but decided to go adventuring.\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5862">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x16f0" id="Blizzard Sorcerer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>123</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Some say the world will end in fire, some say in ice.\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5863">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x16f1" id="Ice King Priest Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>124</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Crown not included to preserve sanity.\n\nSprite Credits: Kingged</Description>
+    <Activate skinType="5864">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x16f2" id="Icicle Dial Mystic Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>125</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>In case of emergency use icicle to stab enemy.\n\nSprite Credits: Poshun</Description>
+    <Activate skinType="5865">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x16f3" id="Yuki Onna Mystic Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>126</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Do not follow, unless you like frostbite.\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5866">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x221" id="Heart Item">
+    <DisplayId>Hearticles</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>0x74</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Show your valentine spirit by presenting your big heart!</Description>
+    <Sound>use_potion</Sound>
+    <Activate hideEffect="true" objectId="Hearticles">Pet</Activate>
+    <Consumable />
+    <BagType>5</BagType>
+    <Soulbound />
+    <feedPower>500</feedPower>
+  </Object>
+  <Object type="0x171c" id="Warrior - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5878">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x171d" id="Paladin - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5879">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x171e" id="Knight - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5880">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x171f" id="Ninja - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5881">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1739" id="Archer - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5909">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x173a" id="Rogue - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5910">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x173b" id="Assassin - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5911">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x173c" id="Wizard - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5912">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x173d" id="Necromancer - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5913">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x173e" id="Priest - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5914">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x173f" id="Sorcerer - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5915">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1753" id="Huntress - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>128</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5968">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1768" id="Mystic - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>128</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5969">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1769" id="Trickster - Artist Extraordinaire Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>128</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5970">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1778" id="Wizard - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5994">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1779" id="Priest - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5995">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x177a" id="Necromancer - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5996">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x177b" id="Sorcerer - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5997">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x177c" id="Mystic - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>129</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5998">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x177d" id="Rogue - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="5999">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x177e" id="Warrior - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6000">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x177f" id="Assassin - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6001">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1780" id="Ninja - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6002">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1781" id="Paladin - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6003">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1782" id="Knight - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6004">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1783" id="Trickster - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>130</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6005">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1784" id="Huntress - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>131</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6006">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x1785" id="Archer - Dungeon Mastermind Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>131</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6007">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x178b" id="Juliet Trickster Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>132</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Oh white bag, white bag! Wherefore art thou white bag?\n\nSprite Credits: Poshun</Description>
+    <Activate skinType="6022">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x178c" id="Heartseeker Huntress Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>133</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>She's coming for your heart!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6023">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x178d" id="Romeo Assassin Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>134</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Is good loot a tender thing? It is too rare, too scarce, too extraordinary, and it pricks like a Poison Fang Dagger.\n\nSprite Credits: Poshun</Description>
+    <Activate skinType="6024">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x178e" id="Mardi Gras Sorcerer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>135</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Let's get this clown fiesta started!\n\nSprite Credits: Poshun</Description>
+    <Activate skinType="6025">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x178f" id="Carnivalmancer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>136</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Totally not a Necromancer.\n\nSprite Credits: Beige</Description>
+    <Activate skinType="6026">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ac1" id="Warrior - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10930">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ac2" id="Knight - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10931">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ac3" id="Paladin - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>137</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10932">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ac4" id="Rogue - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10933">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ac5" id="Assassin - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10934">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ac6" id="Trickster - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10935">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ac7" id="Ninja - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>138</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10936">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ac8" id="Wizard - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>139</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10937">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ac9" id="Necromancer - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>139</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10938">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2aca" id="Mystic - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>139</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10940">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2acb" id="Archer - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>140</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10941">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2acc" id="Huntress - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>140</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10942">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2acd" id="Priest - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>141</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10943">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ace" id="Sorcerer - Future Seeker Tester Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>141</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10944">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2adf" id="Wind Flower Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Make sure to Equip a Wind Circle for style points!\n\nSprite Credits: Poshun</Description>
+    <Activate skinType="10959">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae0" id="Leprechaun Mystic Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>143</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Legends say she will lead you to a pot of gold if you catch her!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10960">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2aed" id="Mini Nut Archer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>144</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The goddess of the sky. Make sure not to vandalize her property.\n\nSprite Credits: Poshun</Description>
+    <Activate skinType="10961">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae1" id="Miss Shamrock Wizard Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>145</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The most ladylike of all leprechauns, or so she says. Don't tell the Mystic!\n\nSprite Credits: Kingged</Description>
+    <Activate skinType="10962">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae2" id="Sheep Warrior Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>146</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>200 POUNDS OF FLUFFY TESTOSTERONE!\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10963">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae3" id="Sheep Rogue Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>147</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Easily pulls his wool over people's eyes.\n\nSprite Credits: Beige</Description>
+    <Activate skinType="10964">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae4" id="Sheep Wizard Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>148</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Ever thought about all the wizards who got polymorphed into sheep? \n\nSprite Credits: Beige</Description>
+    <Activate skinType="10965">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae5" id="Sheep Archer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>149</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The hunters will now become the hunted! \n\nSprite Credits: Beige</Description>
+    <Activate skinType="10966">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae6" id="Sheep Priest Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>150</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Guides the lambs to greener pastures. \n\nSprite Credits: Beige</Description>
+    <Activate skinType="10967">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae7" id="Lil' Bo-Peep Mystic Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>151</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Little Bo-Peep has lost her sheep... \n\nSprite Credits: Beige</Description>
+    <Activate skinType="10968">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae8" id="The Flamingo Wizard Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>152</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>It's a bird... It's a plane... It's... just another wizard. \n\nSprite Credits: Kingged</Description>
+    <Activate skinType="10969">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2aea" id="Dr. Spellbomb Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>153</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>MARVEL AT HIS ABILITY! \n\nSprite Credits: Poshun</Description>
+    <Activate skinType="10971">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2ae9" id="Mini Stheno Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>154</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Dye it green to become Stheno's sister! \n\nSprite Credits: Poshun</Description>
+    <Activate skinType="10970">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2aeb" id="Iron Maiden Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>155</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A divine leader of war and an exceptional musical artist. \n\nSprite Credits: Poshun</Description>
+    <Activate skinType="10974">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+  <Object type="0x2aec" id="Explorer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>156</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Sails the seven seas to sell his life pots. For overpay, naturally. \n\nSprite Credits: Poshun</Description>
+    <Activate skinType="10972">UnlockSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <feedPower>5000</feedPower>
+  </Object>
+
+</ExtData>
